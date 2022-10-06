@@ -1,5 +1,5 @@
 {
-  "Version": "3.0.4",
+  "Version": "3.0.5",
   "ReleaseNotes": "NUEVA VERSIÓN DISPONIBLE",
   "UrlUpdate": "https://raw.githubusercontent.com/VIPNETBR/Actualizacion/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VIPNETBR/Actualizacion/main/UrlSms",
@@ -18,8 +18,8 @@
       "Name": "PARAGUAY ILIMITADO",
       "TYPE": "premium",
       "FLAG": "py.png",
-      "ServerIP": "13.227.125.218",
-      "CheckUser": "http://152.67.52.97:5454/checkUser",
+      "ServerIP": "152.70.218.160",
+      "CheckUser": "http://152.70.218.160:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -28,34 +28,25 @@
   ],
   "Networks": [
     {
-      "Name": "TIGO [SERVIDOR BR-1 🇧🇷]",
+      "Name": "TIGO PY-1",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: dir5qoadc98um.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "13.227.125.218",
+      "Payload": "GET wss://ayuda.tigo.com.py HTTP/1.1[crlf]Host: gontes.vpsmax-hd.tk[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ayuda.tigo.com.py",
+      "TlsIP": "ayuda.tigo.com.py",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIGO [SERVIDOR BR-2 🇧🇷]",
+      "Name": "TIGO PY-2",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gzuv2ym2gt8s.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "13.227.125.218",
-      "TlsIP": "13.227.125.218",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "Payload": "GET wss://ayuda.tigo.com.py HTTP/1.1[crlf]Host: gontes.vpsmax-hd.tk[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
       "Info": "Tlsws"
     },
-    {
-      "Name": "TIGO [SERVIDOR BR-3 🇧🇷]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d1kf30gztoxj07.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "13.227.125.218",
-      "TlsIP": "13.227.125.218",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
     }
   ]
 }
