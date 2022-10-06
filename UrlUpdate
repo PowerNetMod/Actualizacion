@@ -1,5 +1,5 @@
 {
-  "Version": "3.0.6",
+  "Version": "4.0.0",
   "ReleaseNotes": "NUEVA VERSIÓN DISPONIBLE",
   "UrlUpdate": "https://raw.githubusercontent.com/VIPNETBR/Actualizacion/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VIPNETBR/Actualizacion/main/UrlSms",
@@ -18,8 +18,8 @@
       "Name": "PARAGUAY ILIMITADO",
       "TYPE": "premium",
       "FLAG": "py.png",
-      "ServerIP": "152.70.218.160",
-      "CheckUser": "http://152.70.218.160:5454/checkUser",
+      "ServerIP": "",
+      "CheckUser": "http://gontes.vpsmax-hd.tk:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -43,7 +43,7 @@
       "Payload": "GET wss://ayuda.tigo.com.py HTTP/1.1[crlf]Host: gontes.vpsmax-hd.tk[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.53.111",
+      "ProxyIP": "ayuda.tigo.com.py",
       "ProxyPort": "80",
       "Info": "Tlsws"
     },
